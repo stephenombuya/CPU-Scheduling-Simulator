@@ -5,7 +5,7 @@ TARGET = scheduler
 all: $(TARGET)
 
 $(TARGET): scheduler.c
-	$(CC) $(CFLAGS) -o $(TARGET) scheduler.c
+	$(CC) $(CFLAGS) -o $(TARGET) code.c
 
 clean:
 	rm -f $(TARGET)
